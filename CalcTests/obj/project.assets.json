@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "coverlet.collector/3.1.0": {
         "type": "package",
         "build": {
@@ -14,10 +14,10 @@
           "System.Configuration.ConfigurationManager": "4.4.0"
         },
         "compile": {
-          "lib/netcoreapp3.0/FluentAssertions.dll": {}
+          "lib/net6.0/FluentAssertions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/FluentAssertions.dll": {}
+          "lib/net6.0/FluentAssertions.dll": {}
         }
       },
       "Microsoft.CodeCoverage/16.11.0": {
@@ -6096,7 +6096,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
@@ -6120,14 +6120,14 @@
         "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -6138,8 +6138,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
