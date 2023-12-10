@@ -42,10 +42,6 @@
               "target": "Package",
               "version": "[2.1.21, )"
             },
-            "DotNetEnv": {
-              "target": "Package",
-              "version": "[2.5.0, )"
-            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.0, )"

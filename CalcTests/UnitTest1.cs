@@ -1,7 +1,7 @@
 using Xunit;
 using FluentAssertions;
-using CalculatorTRPO;
-namespace TestProject1
+
+namespace TestProject2
 {
     public class UnitTest1
     {

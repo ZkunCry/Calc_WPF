@@ -24,8 +24,6 @@ namespace CalculatorTRPO
     {
         public MainWindow()
         {
-            DotNetEnv.Env.Load();
-            var m = Environment.GetEnvironmentVariable("PASSWORD");
             var services = new ServiceCollection();
             var database = new DataBase();
             /*var json = new RAM();*/

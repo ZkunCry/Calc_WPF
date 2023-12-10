@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorTRPO
+namespace TestProject2
 {
     public class Parser
     {

@@ -214,16 +214,17 @@ C:\git repos\calc_wpf\obj\Debug\net5.0\TestProject2.csproj.CoreCompileInputs.cac
 C:\git repos\calc_wpf\obj\Debug\net5.0\TestProject2.dll
 C:\git repos\calc_wpf\obj\Debug\net5.0\ref\TestProject2.dll
 C:\git repos\calc_wpf\obj\Debug\net5.0\TestProject2.pdb
-C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\testhost.exe
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\testhost.dll
+C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\testhost.exe
+C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
-C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\TestProject2.deps.json
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\TestProject2.runtimeconfig.json
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\TestProject2.runtimeconfig.dev.json
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\TestProject2.dll
+C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\ref\TestProject2.dll
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\TestProject2.pdb
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\FluentAssertions.dll
 C:\git repos\calc_wpf\CalcTests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -316,5 +317,3 @@ C:\git repos\calc_wpf\CalcTests\obj\Debug\net5.0\TestProject2.dll
 C:\git repos\calc_wpf\CalcTests\obj\Debug\net5.0\ref\TestProject2.dll
 C:\git repos\calc_wpf\CalcTests\obj\Debug\net5.0\TestProject2.pdb
 C:\git repos\calc_wpf\CalcTests\obj\Debug\net5.0\TestProject2.genruntimeconfig.cache
-C:\git repos\calc_wpf\CalcTests\obj\Debug\net5.0\TestProject2.csproj.AssemblyReference.cache
-C:\git repos\calc_wpf\CalcTests\obj\Debug\net5.0\refint\TestProject2.dll
