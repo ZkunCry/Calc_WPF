@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTRPO", "CalculatorTRPO\CalculatorTRPO.csproj", "{2DCCE485-6C43-4A9B-B8DD-B90B8CA24C54}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB49849A-368C-4306-B93D-0228D5F2974E} = {BB49849A-368C-4306-B93D-0228D5F2974E}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{095AD803-7F34-4066-95A6-5686A1EC179D}"
 EndProject
