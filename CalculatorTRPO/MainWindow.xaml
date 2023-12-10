@@ -1,0 +1,258 @@
+﻿
+    <Window x:Class="CalculatorTRPO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculatorTRPO" d:DataContext="{d:DesignInstance Type=local:CalcViewModel}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="286">
+
+    <Window.InputBindings>
+        <KeyBinding
+            x:Name="Key1"
+            Key="D1"   
+            Command="{Binding AddNumber}"
+            CommandParameter="1"
+            />
+        <KeyBinding
+            Key="D2"   
+            Command="{Binding AddNumber}"
+            CommandParameter="2"
+            />
+        <KeyBinding
+            Key="D3"   
+            Command="{Binding AddNumber}"
+            CommandParameter="3"
+            />
+        <KeyBinding
+            Key="D4"   
+            Command="{Binding AddNumber}"
+            CommandParameter="4"
+            />
+        <KeyBinding
+            Key="D5"   
+            Command="{Binding AddNumber}"
+            CommandParameter="5"
+            />
+        <KeyBinding
+            Key="D6"   
+            Command="{Binding AddNumber}"
+            CommandParameter="6"
+            />
+        <KeyBinding
+            Key="D7"   
+            Command="{Binding AddNumber}"
+            CommandParameter="7"
+            />
+        <KeyBinding
+            Key="D8"   
+            Command="{Binding AddNumber}"
+            CommandParameter="8"
+            />
+        <KeyBinding
+            Key="D9"   
+            Command="{Binding AddNumber}"
+            CommandParameter="9"
+            />
+        <KeyBinding
+            Key="D0"   
+            Command="{Binding AddNumber}"
+            CommandParameter="0"
+            />
+        <KeyBinding
+            Key="D9"
+            Modifiers="Shift"
+            Command="{Binding AddOper}"
+            CommandParameter="("
+            />
+        <KeyBinding
+            Key="D0"
+            Modifiers="Shift"
+            Command="{Binding AddOper}"
+            CommandParameter=")"
+            />
+        <KeyBinding
+            Key="OemMinus"
+            Command="{Binding AddOper}"
+            CommandParameter="-"
+            />
+
+        <KeyBinding
+            Key="OemPlus"
+            Command="{Binding AddOper}"
+            CommandParameter="+"
+            />
+        <KeyBinding
+            Key="Divide"
+            Command="{Binding AddOper}"
+            CommandParameter="/"
+            />
+        <KeyBinding
+            Key="Return"
+            Command="{Binding StartParsing}"
+            />
+        <KeyBinding
+            Key="Backspace"
+            Command="{Binding DeleteChar}"
+            />
+        <KeyBinding
+            Key="OemComma"
+            Command="{Binding AddOper}"
+            CommandParameter=","
+            />
+        
+    </Window.InputBindings>
+    <Grid  Margin="10,0,10,10">
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Border Grid.Row="0"  Grid.ColumnSpan="4"  Height="30" BorderBrush="Black" BorderThickness="1">
+            <TextBlock  x:Name="labelCalc" FontSize="20" Height="30" Text="{Binding ParseStr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}">
+                <Validation.ErrorTemplate>
+                    <ControlTemplate  >
+                        <StackPanel >
+                        <AdornedElementPlaceholder x:Name="textBlock"  />
+                            <ItemsControl ItemsSource="{Binding}" >
+                            <ItemsControl.ItemTemplate >
+                                <DataTemplate>
+                            <TextBlock   Text="{Binding ErrorContent}" Foreground="Red" />
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                          </StackPanel>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBlock>
+
+        </Border>
+
+        <Button ClickMode="Press" BorderBrush="Transparent"  FontSize="20"   Foreground="Orange" Background="Transparent" Grid.Row="1" Grid.Column="0" Content="MC"
+                Command="{Binding ClearNumberFromMemory}"
+                />
+        <Button BorderBrush="Transparent"  FontSize="20"   Foreground="Orange" Background="Transparent" Grid.Row="1" Grid.Column="1" Content="MR"
+                 Command="{Binding ReadNumberFromMemory}"
+                />
+        <Button BorderBrush="Transparent"   FontSize="20"  Foreground="Orange" Background="Transparent" x:Name="MinusM" Grid.Row="1" Grid.Column="2" Content="M-" 
+                 Command="{Binding SaveNumberToMemory}"
+                 CommandParameter="{Binding ElementName=MinusM,Path=Content}"
+                />
+        <Button BorderBrush="Transparent"  FontSize="20"  Foreground="Orange" Background="Transparent" x:Name="PlusM" Grid.Row="1" Grid.Column="3" Content="M+"
+                Command="{Binding SaveNumberToMemory}"
+                CommandParameter="{Binding ElementName=PlusM,Path=Content}"
+                />
+
+
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" Grid.Row="2" Grid.Column="0" 
+                Command="{Binding ClearOut}" Content="C"/>
+
+        <Button BorderBrush="Transparent"  FontSize="20"   Background="Transparent" Grid.Row="2" Grid.Column="1" 
+                Command="{Binding  DeleteChar}" Content="ON/CE"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"   Background="Transparent" x:Name="LeftArrow" Grid.Row="2" Grid.Column="2" Content="("
+                Command="{Binding AddNumber}"
+                CommandParameter="{Binding ElementName=LeftArrow,Path=Content}"
+                />
+        <Button BorderBrush="Transparent"  FontSize="20"  Background="Transparent" x:Name="RightArrow" Grid.Row="2" Grid.Column="3"
+                Command="{Binding AddNumber}"
+                Foreground="Orange"
+                CommandParameter="{Binding ElementName=RightArrow,Path=Content}"
+                Content=")"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"   Background="Transparent" x:Name="Button7" Grid.Row="3" 
+                 Grid.Column="0" Command="{Binding  AddNumber}"
+                 CommandParameter="{Binding ElementName=Button7,Path=Content}"
+                 Content="7" />
+
+        <Button BorderBrush="Transparent"  FontSize="20"  Background="Transparent" x:Name="Button8"  Grid.Row="3" Grid.Column="1" Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button8,Path=Content}"
+                Content="8"/>
+
+        <Button BorderBrush="Transparent"  FontSize="20"  Background="Transparent" x:Name="Button9"  Grid.Row="3" Grid.Column="2" Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button9,Path=Content}"
+                Content="9"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="ButtonMul" Grid.Row="3" Grid.Column="3"
+                Command="{Binding AddOper}"
+                Foreground="Orange"
+                CommandParameter="{Binding ElementName=ButtonMul,Path=Content}"
+                Content="*"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="Button4" Grid.Row="4" Grid.Column="0" Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button4,Path=Content}"
+                 Content="4" />
+
+        <Button BorderBrush="Transparent"  FontSize="20"  Background="Transparent" x:Name="Button5" Grid.Row="4" Grid.Column="1" 
+                 Command="{Binding  AddNumber}"
+                 CommandParameter="{Binding ElementName=Button5,Path=Content}"
+                 Content="5"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"   Background="Transparent" x:Name="Button6"  Grid.Row="4" Grid.Column="2" 
+                Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button6,Path=Content}"
+                Content="6"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"   Background="Transparent" x:Name="ButtonSub" Grid.Row="4" Grid.Column="3" 
+                Command="{Binding AddOper}"
+                CommandParameter="{Binding ElementName=ButtonSub,Path=Content}"
+                Foreground="Orange"
+                Content="-"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="Button1" Grid.Row="5" 
+                Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button1,Path=Content}"
+                Grid.Column="0" Content="1"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="Button2" Grid.Row="5" 
+                Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button2,Path=Content}"
+                Grid.Column="1" Content="2"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="Button3" Grid.Row="5" 
+                Command="{Binding  AddNumber}"
+                CommandParameter="{Binding ElementName=Button3,Path=Content}"
+                Grid.Column="2" Content="3"/>
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="ButtonSum" Grid.Row="5" Grid.Column="3" 
+                 Command="{Binding AddOper}"
+                 CommandParameter="{Binding ElementName=ButtonSum,Path=Content}"
+                Foreground="Orange"
+                 Content="+"/>
+
+        <Button BorderBrush="Transparent" FontSize="20" Background="Transparent" x:Name="Button0" Grid.Row="6" 
+                Command="{Binding  AddNumber}"
+                CommandParameter="{Binding  ElementName=Button0,Path=Content}"
+                Grid.Column="0"  Content="0" />
+
+        <Button BorderBrush="Transparent" FontSize="20"  Background="Transparent" x:Name="Comma" Grid.Row="6" 
+                Command="{Binding  AddOper}"
+                CommandParameter="{Binding ElementName=Comma,Path=Content}"
+                
+                Grid.Column="1"  Content="," />
+
+        <Button BorderBrush="Transparent"  FontSize="20" Background="Transparent" x:Name="ButtonDiv" Grid.Row="6" Grid.Column="3" Content="/"
+                Command="{Binding AddOper}"
+                Foreground="Orange"
+                CommandParameter="{Binding ElementName=ButtonDiv,Path=Content}"
+                
+                />
+        <Button BorderBrush="Transparent" FontSize="20" Background="Transparent" Grid.Row="6" Grid.Column="2" Content="=" Command="{Binding StartParsing}"/>
+    </Grid>
+</Window>

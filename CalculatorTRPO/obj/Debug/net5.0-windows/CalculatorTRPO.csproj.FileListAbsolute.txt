@@ -1,0 +1,115 @@
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.exe
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.deps.json
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.runtimeconfig.json
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.runtimeconfig.dev.json
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.dll
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\ref\CalculatorTRPO.dll
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.pdb
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.AssemblyReference.cache
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO_MarkupCompile.cache
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO_MarkupCompile.lref
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.g.resources
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.AssemblyInfoInputs.cache
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.AssemblyInfo.cs
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.CoreCompileInputs.cache
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.dll
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\ref\CalculatorTRPO.dll
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.pdb
+C:\Users\Eugene\source\repos\CalculatorTRPO\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.genruntimeconfig.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.exe
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.deps.json
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.runtimeconfig.json
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.runtimeconfig.dev.json
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.pdb
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.AssemblyReference.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\App.g.cs
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO_MarkupCompile.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO_MarkupCompile.lref
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\MainWindow.baml
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.g.resources
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.GeneratedMSBuildEditorConfig.editorconfig
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.AssemblyInfoInputs.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.AssemblyInfo.cs
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.CoreCompileInputs.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\refint\CalculatorTRPO.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.pdb
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.genruntimeconfig.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\ref\CalculatorTRPO.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.exe
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.deps.json
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.runtimeconfig.json
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.runtimeconfig.dev.json
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\ref\CalculatorTRPO.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\CalculatorTRPO.pdb
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\App.g.cs
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO_MarkupCompile.cache
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO_MarkupCompile.lref
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\MainWindow.baml
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.g.resources
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.GeneratedMSBuildEditorConfig.editorconfig
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.AssemblyInfoInputs.cache
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.AssemblyInfo.cs
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.CoreCompileInputs.cache
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\ref\CalculatorTRPO.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.pdb
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.genruntimeconfig.cache
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.CopyComplete
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\BouncyCastle.Cryptography.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.IO.Pipelines.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Text.Json.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\ZstdSharp.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.CopyComplete
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\BouncyCastle.Cryptography.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.IO.Pipelines.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\System.Text.Json.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\ZstdSharp.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\CalcWPF\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Dapper.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Dapper.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\DotNetEnv.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\bin\Debug\net5.0-windows\Sprache.dll
+C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\CalculatorTRPO.csproj.AssemblyReference.cache
