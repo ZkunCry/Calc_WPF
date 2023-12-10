@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-C:\git repos\wpfCalculator\CalculatorTRPO\obj\Debug\net5.0-windows\
+C:\git repos\calc_wpf\CalculatorTRPO\obj\Debug\net5.0-windows\
 CalculatorTRPO
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\git repos\wpfCalculator\CalculatorTRPO\App.xaml
+C:\git repos\calc_wpf\CalculatorTRPO\App.xaml
 11407045341
 
 14661194274

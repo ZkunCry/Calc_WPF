@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WFltxQ8f0aHgYDsq2U8yk/Gqp/e+1Cy332FBCZBR1G9mTK9n1CwfsaWnuVJyx7jNQAy2aeFkNvxZzEeguhbjrg==",
+  "dgSpecHash": "e0wdrtNlGFZz+f+UL3BvLWB9ysVdwVYevmitItR8TGfDZ+IlF3QMXpv9WNxWKaCPvYb8JsJkyj22SrkMyJJu4g==",
   "success": true,
-  "projectFilePath": "C:\\git repos\\wpfCalculator\\CalculatorTRPO\\CalculatorTRPO.csproj",
+  "projectFilePath": "C:\\git repos\\calc_wpf\\CalculatorTRPO\\CalculatorTRPO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eugene\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",

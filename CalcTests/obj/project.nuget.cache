@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A00rNzvwCmF+QYgwRYtrHnoUE4VD8KIspABsmUp2hX+FmupeoIITCLylEUFKseyMykFY4BD8P4tInyO3uAfKog==",
+  "dgSpecHash": "pn68ytTxAkV7+/b7Xmnhr0RJLyu7EYoJ99KwSiIZ7+jXwidAbeoDAxgCzRKBtR/2M9UfWFNbCHqcoiKlSYbFAA==",
   "success": true,
-  "projectFilePath": "C:\\git repos\\calc_wpf\\TestProject2.csproj",
+  "projectFilePath": "C:\\git repos\\calc_wpf\\CalcTests\\TestProject2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eugene\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",

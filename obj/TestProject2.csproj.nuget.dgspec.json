@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git repos\\Tests\\Calculator_UTests\\TestProject2.csproj": {}
+    "C:\\git repos\\calc_wpf\\TestProject2.csproj": {}
   },
   "projects": {
-    "C:\\git repos\\Tests\\Calculator_UTests\\TestProject2.csproj": {
+    "C:\\git repos\\calc_wpf\\TestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git repos\\Tests\\Calculator_UTests\\TestProject2.csproj",
+        "projectUniqueName": "C:\\git repos\\calc_wpf\\TestProject2.csproj",
         "projectName": "TestProject2",
-        "projectPath": "C:\\git repos\\Tests\\Calculator_UTests\\TestProject2.csproj",
+        "projectPath": "C:\\git repos\\calc_wpf\\TestProject2.csproj",
         "packagesPath": "C:\\Users\\Eugene\\.nuget\\packages\\",
-        "outputPath": "C:\\git repos\\Tests\\Calculator_UTests\\obj\\",
+        "outputPath": "C:\\git repos\\calc_wpf\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config"
