@@ -1803,24 +1803,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eugene\\.nuget\\packages\\": {}
+    "C:\\Users\\aksen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git repos\\calc_wpf\\CalculatorTRPO\\CalculatorTRPO.csproj",
+      "projectUniqueName": "C:\\tttttt\\Calc_WPF\\CalculatorTRPO\\CalculatorTRPO.csproj",
       "projectName": "CalculatorTRPO",
-      "projectPath": "C:\\git repos\\calc_wpf\\CalculatorTRPO\\CalculatorTRPO.csproj",
-      "packagesPath": "C:\\Users\\Eugene\\.nuget\\packages\\",
-      "outputPath": "C:\\git repos\\calc_wpf\\CalculatorTRPO\\obj\\",
+      "projectPath": "C:\\tttttt\\Calc_WPF\\CalculatorTRPO\\CalculatorTRPO.csproj",
+      "packagesPath": "C:\\Users\\aksen\\.nuget\\packages\\",
+      "outputPath": "C:\\tttttt\\Calc_WPF\\CalculatorTRPO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aksen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1870,7 +1872,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
