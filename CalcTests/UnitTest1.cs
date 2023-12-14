@@ -12,16 +12,16 @@ namespace TestProject2
         }
 
         [Theory]
-        [InlineData("1+5", "6")]
-        [InlineData("1+5*(6+1)", "36")]
-        [InlineData("5*7/2", "17,5")]
-        [InlineData("5*7+(5)", "40")]
-        [InlineData("5*7+", "35")]
+        [InlineData("1+5", 6)]
+        [InlineData("1+5*(6+1)", 36)]
+        [InlineData("5*7/2", 17.5)]
+        [InlineData("5*7+(5)", 40)]
+        [InlineData("5*7+", 35)]
 
-        public void Parser_ShouldReturnResult(string left, string right)
+        public void Parser_ShouldReturnResult(string left, double right)
         {
             var result = parser.StartParsing(left);
-            result.Should().Be(right);
+            result.Should().Be(right.ToString());
         }
         [Fact]
         public void Parser_ShouldReturnCurrentNumber_IfUserTransferOneNumber()
@@ -65,12 +65,12 @@ namespace TestProject2
             result.Should().Be(right);
         }
         [Theory]
-        [InlineData("2+(0,5)", "2,5")]
-        [InlineData("2*2,6", "5,2")]
-        public void Parser_ShouldReturnDoubleNumber_IfUserWritingDot(string left, string right)
+        [InlineData("2+(0,5)", 2.5)]
+        [InlineData("2*2,6", 5.2)]
+        public void Parser_ShouldReturnDoubleNumber_IfUserWritingDot(string left, double right)
         {
             var result = parser.StartParsing(left);
-            result.Should().Be(right);
+            result.Should().Be(right.ToString());
 
         }
     }
