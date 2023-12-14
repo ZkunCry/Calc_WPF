@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -140,20 +141,25 @@ namespace TestProject2
                     }
                     GetSymbol();
                 }
-                if (symbol == ',')
+                if (symbol == '.')
                 {
                     if (isDot)
                     {
                         isInvalid = true;
                         return 0;
                     }
-                    x += ',';
+                    x += '.';
                     GetSymbol();
                     isDot = true;
                 }
 
             }
-            return double.Parse(x);
+            NumberFormatInfo format = new NumberFormatInfo();
+            // Set the 'splitter' for thousands
+            format.NumberGroupSeparator = " ";
+            // Set the decimal seperator
+            format.NumberDecimalSeparator = ".";
+            return double.Parse(x,format);
         }
 
     }

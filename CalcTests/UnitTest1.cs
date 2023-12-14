@@ -9,6 +9,7 @@ namespace TestProject2
         public UnitTest1()
         {
             this.parser = new Parser();
+
         }
 
         [Theory]
@@ -65,8 +66,8 @@ namespace TestProject2
             result.Should().Be(right);
         }
         [Theory]
-        [InlineData("2+(0,5)", 2.5)]
-        [InlineData("2*2,6", 5.2)]
+        [InlineData("2+(0.5)", 2.5)]
+        [InlineData("2*2.6", 5.2)]
         public void Parser_ShouldReturnDoubleNumber_IfUserWritingDot(string left, double right)
         {
             var result = parser.StartParsing(left);
